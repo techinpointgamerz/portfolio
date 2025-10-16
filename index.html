@@ -1,97 +1,275 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Techinpoint Gamerz Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Techinpoint Gamerz — TG Plugins</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicons (optional) -->
+  <meta name="theme-color" content="#121212">
 </head>
 <body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <img src="https://i.postimg.cc/mZHnqw11/high-1760627778.jpg" alt="Techinpoint Gamerz Logo" class="brand-logo">
+        <div class="brand-text">
+          <h1>Techinpoint Gamerz</h1>
+          <p class="tag">Crafting Custom Minecraft Experiences</p>
+        </div>
+      </a>
 
-  <!-- HEADER -->
-  <header>
-    <div class="logo-area">
-      <img src="https://i.postimg.cc/1zgbcZ9c/c3e8d1c8-3353-46a5-a51c-6f115a0cfbb0.jpg" alt="Logo" class="logo">
-      <div class="brand-name">Techinpoint Gamerz</div>
+      <nav class="nav">
+        <a href="#plugins">Plugins</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <a class="btn-ghost" href="https://discord.com/invite/scmUmKmhpp" target="_blank" rel="noopener">Join Discord</a>
+      </nav>
+
+      <button class="mobile-toggle" aria-label="Open menu">☰</button>
     </div>
-    <nav class="nav-links">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
   </header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <img src="https://i.postimg.cc/6Qmtt0Qz/Messenger-creation-17d479b5-1049-4c97-9771-691e95ecac1e.jpg" alt="Profile" class="profile">
-    <h2>Hi, I'm Prabin Subedi</h2>
-    <p class="subtitle">YouTuber • Plugin Developer • Web Designer</p>
-    <p>Welcome to my portfolio!</p>
-  </section>
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h2 class="eyebrow">Welcome to</h2>
+          <h1 class="hero-title">TG Plugins — Techinpoint Gamerz</h1>
+          <p class="lead">We craft powerful & custom Minecraft plugins for servers of all sizes. Quality, performance, and support.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#plugins">View Plugins</a>
+            <a class="btn btn-outline" href="#contact">Contact Us</a>
+          </div>
+        </div>
 
-  <!-- ABOUT -->
-  <section id="about">
-    <div class="about-card">
-      <h2>About Me</h2>
-      <p>I am an enthusiastic developer and gamer with experience in plugin development, web design, and mobile repair. Passionate about creating cool projects and exploring new technologies.</p>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills">
-    <h2>My Skills</h2>
-    <div class="skill">
-      <div class="skill-name">Plugin Development</div>
-      <div class="skill-bar"><div class="skill-fill" style="--level:85%;"></div></div>
-    </div>
-    <div class="skill">
-      <div class="skill-name">Web Design</div>
-      <div class="skill-bar"><div class="skill-fill" style="--level:80%;"></div></div>
-    </div>
-    <div class="skill">
-      <div class="skill-name">Mobile Repair</div>
-      <div class="skill-bar"><div class="skill-fill" style="--level:70%;"></div></div>
-    </div>
-    <div class="skill">
-      <div class="skill-name">Gaming</div>
-      <div class="skill-bar"><div class="skill-fill" style="--level:90%;"></div></div>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project-grid">
-      <div class="project-card">
-        <img src="https://i.postimg.cc/YCFSXTqk/Chat-GPT-Image-Jul-26-2025-06-19-09-PM.jpg" alt="DivineBows">
-        <h3>DivineBows Plugin</h3>
-        <p>Custom Minecraft bow plugin with configurable powers.</p>
-        <a href="https://www.spigotmc.org/resources/divinebows.127092/" target="_blank">View on SpigotMC</a>
+        <div class="hero-art">
+          <div class="studio-card">
+            <img src="https://i.postimg.cc/mZHnqw11/high-1760627778.jpg" alt="TG Logo" class="studio-logo">
+            <p class="studio-name">Techinpoint Gamerz</p>
+            <p class="studio-sub">TG DevCore Plugin Studio</p>
+          </div>
+        </div>
       </div>
-      <div class="project-card">
-        <img src="https://i.postimg.cc/K8c1Y0Zy/logo.png" alt="Aayusha Collection">
-        <h3>Aayusha Collection Website</h3>
-        <p>Clean responsive e-commerce website design.</p>
-        <a href="https://aayusha-collection-techinpoints-projects.vercel.app/" target="_blank">View Website</a>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-skills">
+      <div class="container">
+        <h3 class="section-title">My Skills</h3>
+
+        <div class="skills-grid">
+          <div class="skill">
+            <div class="skill-head">
+              <span>Plugin Development</span>
+              <span class="skill-percent">90%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" style="--w:90%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head">
+              <span>Web Design</span>
+              <span class="skill-percent">75%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" style="--w:75%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head">
+              <span>Mobile Repair</span>
+              <span class="skill-percent">60%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" style="--w:60%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-head">
+              <span>Gaming</span>
+              <span class="skill-percent">80%</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar" style="--w:80%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLUGINS -->
+    <section id="plugins" class="section section-plugins">
+      <div class="container">
+        <h3 class="section-title">Plugins & Projects</h3>
+        <p class="section-lead">A curated list of my plugins. Click any card to open the Spigot page.</p>
+
+        <div class="projects-grid">
+          <!-- TG-TNT -->
+          <article class="project-card">
+            <img class="project-logo" src="https://i.postimg.cc/Pq3dJ4dK/Gemini-Generated-Image-heoac7heoac7heoa.png" alt="TG-TNT">
+            <div class="project-body">
+              <h4>TG-TNT</h4>
+              <p class="muted">Advanced TNT Customization — Explosive mechanics and in-game editors.</p>
+              <div class="project-actions">
+                <a class="btn-sm" href="https://www.spigotmc.org/resources/tg-tnt-advanced-tnt-customization.129522/" target="_blank" rel="noopener">View on Spigot</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- TGSoul -->
+          <article class="project-card">
+            <img class="project-logo" src="https://i.postimg.cc/MKNZbtBL/TG-SOUL.jpg" alt="TGSoul">
+            <div class="project-body">
+              <h4>TGSoul</h4>
+              <p class="muted">Soul-Based Survival Plugin with Geyser support. (Most downloaded)</p>
+              <div class="project-actions">
+                <a class="btn-sm" href="https://www.spigotmc.org/resources/%E2%9A%94%EF%B8%8F-tgsoul-%E2%80%93-soul-based-survival-plugin-with-geyser-support.128220/" target="_blank" rel="noopener">View on Spigot</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- TG-ANTIBOT -->
+          <article class="project-card">
+            <img class="project-logo" src="https://i.postimg.cc/zGxjcbzG/Chat-GPT-Image-Aug-8-2025-07-02-11-PM.png" alt="TG-Antibot">
+            <div class="project-body">
+              <h4>TG-ANTIBOT</h4>
+              <p class="muted">Antibot / AntiVPN / Firewall / Alerts — Under development.</p>
+              <div class="project-actions">
+                <a class="btn-sm" href="https://www.spigotmc.org/resources/%EF%B8%8F-tg-antibot-antibot-antivpn-firewall-alerts.127789/" target="_blank" rel="noopener">View on Spigot</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- DivineBows -->
+          <article class="project-card">
+            <img class="project-logo" src="https://i.postimg.cc/YCFSXTqk/Chat-GPT-Image-Jul-26-2025-06-19-09-PM.jpg" alt="DivineBows">
+            <div class="project-body">
+              <h4>DivineBows</h4>
+              <p class="muted">A mythic bow system with unique abilities — in development.</p>
+              <div class="project-actions">
+                <a class="btn-sm" href="https://www.spigotmc.org/resources/divinebows.127092/" target="_blank" rel="noopener">View on Spigot</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<!-- YOUTUBE SHOWCASE -->
+<section id="youtube" class="section section-youtube">
+  <div class="container">
+    <h3 class="section-title">YouTube Tutorials & Showcases</h3>
+    <p class="section-lead">Watch plugin showcases, setup tutorials, and Minecraft guides by Techinpoint Gamerz.</p>
+    <div class="youtube-grid">
+      <iframe class="yt-frame"
+        src="https://www.youtube-nocookie.com/embed/DmHhXpMI6nc"
+        title="TG-TNT Plugin Showcase"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        sandbox="allow-scripts allow-same-origin allow-presentation"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+      <iframe class="yt-frame"
+        src="https://www.youtube-nocookie.com/embed/OaeaH0bJ_CM"
+        title="TGSoul Plugin Demo"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        sandbox="allow-scripts allow-same-origin allow-presentation"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+      <iframe class="yt-frame"
+        src="https://www.youtube-nocookie.com/embed/LMSFI1cVfoE"
+        title="DivineBows Development Preview"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        sandbox="allow-scripts allow-same-origin allow-presentation"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+      </iframe>
+    </div>
+<div class="youtube-cta">
+<a class="btn" href="https://www.youtube.com/@TechinpointGamerz/featured" target="_blank" rel="noopener noreferrer">
+  Visit YouTube Channel
+</a>
+</div>
+  </div>
+</section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-contact">
+      <div class="container">
+        <h3 class="section-title">Contact & Support</h3>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h4>Get in touch</h4>
+            <p>Have a question, need a custom plugin, or want to report a bug? Reach out!</p>
+            <ul class="contact-list">
+              <li><strong>Discord:</strong> <a href="https://discord.com/invite/scmUmKmhpp" target="_blank" rel="noopener">discord.gg/scmUmKmhpp</a></li>
+              <li><strong>Email:</strong> <a href="mailto:Prabinsubedi578@gmail.com">Prabinsubedi578@gmail.com</a></li>
+              <li><strong>SpigotMC:</strong> <a href="https://www.spigotmc.org/resources/authors/techinpoint.2341029/" target="_blank" rel="noopener">@techinpoint</a></li>
+            </ul>
+          </div>
+
+          <div class="support-card">
+            <h4>Support TG Plugins</h4>
+            <p>Your support keeps free updates and new plugins coming. Join the community or follow the channel.</p>
+            <div class="support-actions">
+              <a class="btn" href="https://www.youtube.com/@TechinpointGamerz" target="_blank" rel="noopener">YouTube</a>
+              <a class="btn btn-outline" href="https://www.instagram.com/techinpointgamerz" target="_blank" rel="noopener">Instagram</a>
+              <a class="btn btn-ghost" href="https://discord.com/invite/scmUmKmhpp" target="_blank" rel="noopener">Discord</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Techinpoint Gamerz • Built with ♥ for Minecraft</p>
+      <div class="social-inline">
+        <a href="https://www.spigotmc.org/resources/authors/techinpoint.2341029/" target="_blank" rel="noopener">SpigotMC</a>
+        <a href="https://www.youtube.com/@TechinpointGamerz" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://www.instagram.com/techinpointgamerz" target="_blank" rel="noopener">Instagram</a>
       </div>
     </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <div class="contact-links">
-      <a href="mailto:Prabinsubedi109@gmail.com">📧 Email</a>
-      <a href="https://discord.gg/vEFP7xmcmA" target="_blank">💬 Discord</a>
-      <a href="www.youtube.com/@TechinpointGamerz" target="_blank">▶ YouTube</a>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer>
-    © 2025 Techinpoint Gamerz | Made with ❤️ by Prabin
   </footer>
 
+  <!-- Minimal JS: mobile menu & year -->
+  <script>
+    // set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // mobile toggle
+    const toggle = document.querySelector('.mobile-toggle');
+    const nav = document.querySelector('.nav');
+
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('open');
+    });
+
+    // close nav on link click (mobile)
+    document.querySelectorAll('.nav a').forEach(a => {
+      a.addEventListener('click', () => {
+        nav.classList.remove('open');
+      });
+    });
+  </script>
 </body>
 </html>
